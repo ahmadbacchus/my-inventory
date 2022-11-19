@@ -1,7 +1,7 @@
 # Build stage for compiling the React app
 FROM node:14.8.0-stretch as build
 RUN mkdir /app
-COPY /my-app /app
+COPY . /app
 WORKDIR /app
 RUN npm install \
     && npm run-script build \

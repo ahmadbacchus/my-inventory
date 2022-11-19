@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn-primary {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.my-app-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ff9933;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.card {
+  margin-bottom: 10px;
+}
