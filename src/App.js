@@ -32,7 +32,8 @@ class App extends Component {
                 <p className="card-text"><h3>Product Description: </h3>{post.body}</p>
               </div>
               <div><a href='#' class="btn btn-primary">Additional product details </a></div>
-            </div>
+              <div className="card-footer">{process.env.REACT_APP_TEST_VAR}</div>            
+              </div>
           ))}
         </div>
       </div>
